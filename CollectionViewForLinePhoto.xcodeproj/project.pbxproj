@@ -77,6 +77,7 @@
 		0450C1EA1DFD9980004AFC9D /* 228.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0450C1B01DFD9980004AFC9D /* 228.JPG */; };
 		0450C1EB1DFD9980004AFC9D /* 229.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0450C1B11DFD9980004AFC9D /* 229.JPG */; };
 		0450C2D81DFD9D59004AFC9D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450C2D71DFD9D59004AFC9D /* SecondViewController.m */; };
+		04E071241DFEE8BE006BCC9C /* LXStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E071231DFEE8BE006BCC9C /* LXStackLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +179,8 @@
 		0450C1B11DFD9980004AFC9D /* 229.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 229.JPG; sourceTree = "<group>"; };
 		0450C2D61DFD9D59004AFC9D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0450C2D71DFD9D59004AFC9D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04E071221DFEE8BE006BCC9C /* LXStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStackLayout.h; sourceTree = "<group>"; };
+		04E071231DFEE8BE006BCC9C /* LXStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStackLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,8 @@
 				0450C2D71DFD9D59004AFC9D /* SecondViewController.m */,
 				0450C1741DFD84DF004AFC9D /* LinePhotoCollectionViewFlowLayout.h */,
 				0450C1751DFD84DF004AFC9D /* LinePhotoCollectionViewFlowLayout.m */,
+				04E071221DFEE8BE006BCC9C /* LXStackLayout.h */,
+				04E071231DFEE8BE006BCC9C /* LXStackLayout.m */,
 				0450C16F1DFD7E9D004AFC9D /* LabelCollectionCell.h */,
 				0450C1701DFD7E9D004AFC9D /* LabelCollectionCell.m */,
 				0450C1711DFD7E9D004AFC9D /* LabelCollectionCell.xib */,
@@ -534,6 +539,7 @@
 				0450C1441DFD794C004AFC9D /* ViewController.m in Sources */,
 				0450C1411DFD794C004AFC9D /* AppDelegate.m in Sources */,
 				0450C13E1DFD794C004AFC9D /* main.m in Sources */,
+				04E071241DFEE8BE006BCC9C /* LXStackLayout.m in Sources */,
 				0450C1761DFD84DF004AFC9D /* LinePhotoCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -760,6 +766,7 @@
 				0450C1681DFD794D004AFC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0450C1691DFD794D004AFC9D /* Build configuration list for PBXNativeTarget "CollectionViewForLinePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -768,6 +775,7 @@
 				0450C16B1DFD794D004AFC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0450C16C1DFD794D004AFC9D /* Build configuration list for PBXNativeTarget "CollectionViewForLinePhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -776,6 +784,7 @@
 				0450C16E1DFD794D004AFC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
